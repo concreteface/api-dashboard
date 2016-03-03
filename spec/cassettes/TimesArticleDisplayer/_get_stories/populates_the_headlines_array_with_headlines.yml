@@ -1,0 +1,483 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=10e123446a9912fe513a27a4278990d7:18:74615897
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.nytimes.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Mashery-Responder:
+      - prod-j-worker-atl-03.mashery.com
+      X-Amz-Id-2:
+      - Fdav8PbLjKQIuOZuWfk5gpPMxExKETZVLVXeBfARqCerpuQsNz3EH5C3ZwwQzpyy
+      X-Amz-Request-Id:
+      - 7407C442FD5C7991
+      Date:
+      - Thu, 03 Mar 2016 19:37:38 GMT
+      Expires:
+      - Thu, 03 Mar 2016 19:33:20 GMT
+      Cache-Control:
+      - max-age=60
+      Last-Modified:
+      - Thu, 03 Mar 2016 19:32:21 GMT
+      Etag:
+      - '"cda43163e5f7492d8d2e15fa5c4881ce"'
+      Accept-Ranges:
+      - none
+      Content-Type:
+      - text/json
+      Content-Length:
+      - '56292'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.
+        All Rights Reserved.","section":"home","last_updated":"2016-03-03T14:32:01-05:00","num_results":21,"results":[{"section":"U.S.","subsection":"Politics","title":"Front-Runner
+        Is a \u2018Fraud,\u2019 He Says","abstract":"In an impassioned speech, Mitt
+        Romney urged Republicans to rally around another candidate and said a Trump
+        presidency could lead America into a dark abyss.","url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2016\/03\/03\/mitt-romney-donald-trump\/","byline":"By
+        ALEXANDER BURNS and MICHAEL BARBARO","item_type":"Blogpost","updated_date":"2016-03-03T14:24:38-5:00","created_date":"2016-03-03T08:58:11-5:00","published_date":"2016-03-03T08:56:20-5:00","material_type_facet":"News","kicker":"First
+        Draft","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":""},{"section":"U.S.","subsection":"Politics","title":"Anti-Trump
+        Faction in G.O.P. Is Seeking Third-Party Option","abstract":"For a growing
+        group of conservative leaders, Mr. Trump\u2019s initial refusal to disavow
+        an endorsement from a white supremacist was a breaking point.","url":"http:\/\/www.nytimes.com\/2016\/03\/03\/us\/politics\/anti-donald-trump-republicans-call-for-a-third-party-option.html","byline":"By
+        ALEXANDER BURNS","item_type":"Article","updated_date":"2016-03-02T18:59:18-5:00","created_date":"2016-03-02T18:59:21-5:00","published_date":"2016-03-03T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","Voting and Voters","Third-Party Politics (US)","Primaries
+        and Caucuses","United States Politics and Government"],"org_facet":["Republican
+        Party"],"per_facet":["Trump, Donald J","Clinton, Hillary Rodham","Sasse, Benjamin
+        E","Baker, Charles D Jr"],"geo_facet":["Washington (DC)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03defect-web\/03defect-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Senator
+        Ben Sasse, Republican of Nebraska, outside the Supreme Court on Wednesday.
+        The first-term senator said this week that he would not vote for Donald J.
+        Trump if he were the nominee.","copyright":"Drew Angerer\/Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03defect-web\/03defect-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Senator
+        Ben Sasse, Republican of Nebraska, outside the Supreme Court on Wednesday.
+        The first-term senator said this week that he would not vote for Donald J.
+        Trump if he were the nominee.","copyright":"Drew Angerer\/Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03defect-web\/03defect-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Senator
+        Ben Sasse, Republican of Nebraska, outside the Supreme Court on Wednesday.
+        The first-term senator said this week that he would not vote for Donald J.
+        Trump if he were the nominee.","copyright":"Drew Angerer\/Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03defect-web\/03defect-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Senator
+        Ben Sasse, Republican of Nebraska, outside the Supreme Court on Wednesday.
+        The first-term senator said this week that he would not vote for Donald J.
+        Trump if he were the nominee.","copyright":"Drew Angerer\/Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03defect-web\/03defect-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Senator
+        Ben Sasse, Republican of Nebraska, outside the Supreme Court on Wednesday.
+        The first-term senator said this week that he would not vote for Donald J.
+        Trump if he were the nominee.","copyright":"Drew Angerer\/Getty Images"}]},{"section":"U.S.","subsection":"Politics","title":"G.O.P.
+        Foreign Policy Figures Denounce Trump","abstract":"In an open letter, prominent
+        figures in both Bush administrations warned that Mr. Trump\u2019s vision of
+        U.S. power was \u201cwildly inconsistent\u201d and lacking in principle.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/gop-foreign-policy-figures-denounce-donald-trumps-worldview.html","byline":"By
+        DAVID E. SANGER","item_type":"Article","updated_date":"2016-03-03T12:35:49-5:00","created_date":"2016-03-03T12:35:49-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States International Relations","Presidential Election of 2016","United States
+        Politics and Government","United States Defense and Military Forces"],"org_facet":["Republican
+        Party"],"per_facet":["Cohen, Eliot A","Gates, Robert M","Shedd, David R","Trump,
+        Donald J","Zakheim, Dov S","Zoellick, Robert B"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04campaign-web\/04campaign-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump and Gov. Chris Christie left a rally in Columbus, Ohio, on Tuesday.
+        In an open letter, many prominent figures in the administrations of George
+        Bush and George W. Bush criticized Mr. Trump\u2019s vision of American power.","copyright":"Mark
+        Makela for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04campaign-web\/04campaign-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump and Gov. Chris Christie left a rally in Columbus, Ohio, on Tuesday.
+        In an open letter, many prominent figures in the administrations of George
+        Bush and George W. Bush criticized Mr. Trump\u2019s vision of American power.","copyright":"Mark
+        Makela for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04campaign-web\/04campaign-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump and Gov. Chris Christie left a rally in Columbus, Ohio, on Tuesday.
+        In an open letter, many prominent figures in the administrations of George
+        Bush and George W. Bush criticized Mr. Trump\u2019s vision of American power.","copyright":"Mark
+        Makela for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04campaign-web\/04campaign-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump and Gov. Chris Christie left a rally in Columbus, Ohio, on Tuesday.
+        In an open letter, many prominent figures in the administrations of George
+        Bush and George W. Bush criticized Mr. Trump\u2019s vision of American power.","copyright":"Mark
+        Makela for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04campaign-web\/04campaign-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump and Gov. Chris Christie left a rally in Columbus, Ohio, on Tuesday.
+        In an open letter, many prominent figures in the administrations of George
+        Bush and George W. Bush criticized Mr. Trump\u2019s vision of American power.","copyright":"Mark
+        Makela for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Full
+        Transcript of Romney\u2019s Speech","abstract":"The following is a transcript
+        of Mitt Romney\u2019s remarks addressing the candidacy of Donald J. Trump,
+        as transcribed by the Federal News Service.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/mitt-romney-speech.html","byline":"","item_type":"Article","updated_date":"2016-03-03T12:45:06-5:00","created_date":"2016-03-03T12:45:08-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","United States Politics and Government","United States International
+        Relations","Presidents and Presidency (US)"],"org_facet":["Republican Party"],"per_facet":["Romney,
+        Mitt","Trump, Donald J"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/03fd-romneyvid\/03fd-romneyvid-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Mitt
+        Romney spoke at the University of Utah in Salt Lake City on Thursday.","copyright":"Rick
+        Bowmer\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/03fd-romneyvid\/03fd-romneyvid-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Mitt
+        Romney spoke at the University of Utah in Salt Lake City on Thursday.","copyright":"Rick
+        Bowmer\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/03fd-romneyvid\/03fd-romneyvid-articleInline.jpg","format":"Normal","height":138,"width":190,"type":"image","subtype":"photo","caption":"Mitt
+        Romney spoke at the University of Utah in Salt Lake City on Thursday.","copyright":"Rick
+        Bowmer\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/03fd-romneyvid\/03fd-romneyvid-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Mitt
+        Romney spoke at the University of Utah in Salt Lake City on Thursday.","copyright":"Rick
+        Bowmer\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/03fd-romneyvid\/03fd-romneyvid-superJumbo.jpg","format":"superJumbo","height":1492,"width":2048,"type":"image","subtype":"photo","caption":"Mitt
+        Romney spoke at the University of Utah in Salt Lake City on Thursday.","copyright":"Rick
+        Bowmer\/Associated Press"}]},{"section":"U.S.","subsection":"Politics","title":"Trump
+        to Face Kelly Again in Fox Debate","abstract":"In the first Fox News debate,
+        he seethed at her. Before the second debate, he walked. Tonight at 9 p.m.
+        Eastern, Mr. Trump and Megyn Kelly will be back on stage together.","url":"http:\/\/www.nytimes.com\/2016\/03\/03\/us\/politics\/fox-news-trump-republican-debate.html","byline":"By
+        NICK CORASANITI","item_type":"Article","updated_date":"2016-03-02T19:05:42-5:00","created_date":"2016-03-02T19:05:44-5:00","published_date":"2016-03-03T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","Debates (Political)"],"org_facet":["Fox News Channel","Republican
+        Party"],"per_facet":["Kelly, Megyn","Trump, Donald J"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03fox-web\/03fox-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Fox News anchor Megyn Kelly with Senator Ted Cruz after a Republican debate
+        in January.","copyright":"Stephen Crowley\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03fox-web\/03fox-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Fox News anchor Megyn Kelly with Senator Ted Cruz after a Republican debate
+        in January.","copyright":"Stephen Crowley\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03fox-web\/03fox-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        Fox News anchor Megyn Kelly with Senator Ted Cruz after a Republican debate
+        in January.","copyright":"Stephen Crowley\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03fox-web\/03fox-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Fox News anchor Megyn Kelly with Senator Ted Cruz after a Republican debate
+        in January.","copyright":"Stephen Crowley\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03fox-web\/03fox-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Fox News anchor Megyn Kelly with Senator Ted Cruz after a Republican debate
+        in January.","copyright":"Stephen Crowley\/The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Pressure
+        Is on Trump as the Debate Stage Narrows to 4","abstract":"With Ben Carson
+        skipping the debate after suggesting an end to his campaign, a trimmed field
+        of Republican hopefuls will gather for the Fox News debate at 9 p.m. ET.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/republican-debate-fox-news.html","byline":"By
+        ALAN RAPPEPORT","item_type":"Article","updated_date":"2016-03-03T05:00:26-5:00","created_date":"2016-03-03T05:00:28-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","Debates (Political)"],"org_facet":["Fox News Channel","Republican
+        Party"],"per_facet":["Trump, Donald J","Rubio, Marco","Cruz, Ted","Kasich,
+        John R"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03setup-web\/03setup-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in Detroit, the site of Thursday\u2019s Republican debate. The
+        setting will provide an evocative backdrop for contenders to hash out their
+        positions on how to revive the economy.","copyright":"Richard Perry\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03setup-web\/03setup-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in Detroit, the site of Thursday\u2019s Republican debate. The
+        setting will provide an evocative backdrop for contenders to hash out their
+        positions on how to revive the economy.","copyright":"Richard Perry\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03setup-web\/03setup-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in Detroit, the site of Thursday\u2019s Republican debate. The
+        setting will provide an evocative backdrop for contenders to hash out their
+        positions on how to revive the economy.","copyright":"Richard Perry\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03setup-web\/03setup-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in Detroit, the site of Thursday\u2019s Republican debate. The
+        setting will provide an evocative backdrop for contenders to hash out their
+        positions on how to revive the economy.","copyright":"Richard Perry\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/03setup-web\/03setup-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in Detroit, the site of Thursday\u2019s Republican debate. The
+        setting will provide an evocative backdrop for contenders to hash out their
+        positions on how to revive the economy.","copyright":"Richard Perry\/The New
+        York Times"}]},{"section":"U.S.","subsection":"Politics","title":"How to Watch
+        the Debate","abstract":"There will be only four Republican candidates debating
+        Thursday night after Ben Carson said he would not participate in light of
+        the Super Tuesday results.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/how-to-watch-republican-debate.html","byline":"By
+        ALAN RAPPEPORT","item_type":"Article","updated_date":"2016-03-03T13:07:27-5:00","created_date":"2016-03-03T13:07:27-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Debates
+        (Political)"],"org_facet":["Republican Party","Fox News Channel"],"per_facet":["Trump,
+        Donald J","Rubio, Marco","Cruz, Ted","Kasich, John R","Kelly, Megyn"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04howtowatch-web\/04howtowatch-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in downtown Detroit, where the Republican debate will be held
+        Thursday night.","copyright":"Richard Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04howtowatch-web\/04howtowatch-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in downtown Detroit, where the Republican debate will be held
+        Thursday night.","copyright":"Richard Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04howtowatch-web\/04howtowatch-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in downtown Detroit, where the Republican debate will be held
+        Thursday night.","copyright":"Richard Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04howtowatch-web\/04howtowatch-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in downtown Detroit, where the Republican debate will be held
+        Thursday night.","copyright":"Richard Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04howtowatch-web\/04howtowatch-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Fox Theater in downtown Detroit, where the Republican debate will be held
+        Thursday night.","copyright":"Richard Perry\/The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Reporters
+        Reflect: When We Knew Trump Was Here to Stay","abstract":"Times reporters
+        recall when they first realized Mr. Trump could win the Republican nomination,
+        a prospect that seemed unthinkable a year ago.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/donald-trump-gop-nomination.html","byline":"By
+        THE NEW YORK TIMES","item_type":"Article","updated_date":"2016-03-03T05:00:26-5:00","created_date":"2016-03-03T05:00:28-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016"],"org_facet":["Republican Party"],"per_facet":["Trump, Donald
+        J"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04REPORTERSTRUMP\/04REPORTERSTRUMP-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        stage set up for a news conference that Donald J. Trump held Tuesday night
+        at his Mar-a-Lago resort in Palm Beach, Fla.","copyright":"Damon Winter\/The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04REPORTERSTRUMP\/04REPORTERSTRUMP-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        stage set up for a news conference that Donald J. Trump held Tuesday night
+        at his Mar-a-Lago resort in Palm Beach, Fla.","copyright":"Damon Winter\/The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04REPORTERSTRUMP\/04REPORTERSTRUMP-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"A
+        stage set up for a news conference that Donald J. Trump held Tuesday night
+        at his Mar-a-Lago resort in Palm Beach, Fla.","copyright":"Damon Winter\/The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04REPORTERSTRUMP\/04REPORTERSTRUMP-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        stage set up for a news conference that Donald J. Trump held Tuesday night
+        at his Mar-a-Lago resort in Palm Beach, Fla.","copyright":"Damon Winter\/The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/us\/04REPORTERSTRUMP\/04REPORTERSTRUMP-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"A
+        stage set up for a news conference that Donald J. Trump held Tuesday night
+        at his Mar-a-Lago resort in Palm Beach, Fla.","copyright":"Damon Winter\/The
+        New York Times"}]},{"section":"Sports","subsection":"","title":"They May Lead
+        the Country, but Can They Play Ball?","abstract":"Like many United States
+        presidents, several of today\u2019s hopefuls have notable sports backgrounds
+        \u2014 even if they are no Gerald Ford.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/sports\/donald-trump-united-states-football-league-marco-rubio-florida.html","byline":"By
+        VICTOR MATHER","item_type":"Article","updated_date":"2016-03-03T07:00:02-5:00","created_date":"2016-03-03T07:00:04-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016"],"org_facet":"","per_facet":["Trump, Donald J"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04CANDIDATES\/04CANDIDATES-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump throwing the ceremonial first pitch before a 2006 game between the
+        Red Sox and the Yankees.","copyright":"Charles Krupa\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04CANDIDATES\/04CANDIDATES-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump throwing the ceremonial first pitch before a 2006 game between the
+        Red Sox and the Yankees.","copyright":"Charles Krupa\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04CANDIDATES\/04CANDIDATES-articleInline.jpg","format":"Normal","height":162,"width":190,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump throwing the ceremonial first pitch before a 2006 game between the
+        Red Sox and the Yankees.","copyright":"Charles Krupa\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04CANDIDATES\/04CANDIDATES-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump throwing the ceremonial first pitch before a 2006 game between the
+        Red Sox and the Yankees.","copyright":"Charles Krupa\/Associated Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04CANDIDATES\/04CANDIDATES-superJumbo.jpg","format":"superJumbo","height":1707,"width":2000,"type":"image","subtype":"photo","caption":"Donald
+        J. Trump throwing the ceremonial first pitch before a 2006 game between the
+        Red Sox and the Yankees.","copyright":"Charles Krupa\/Associated Press"}]},{"section":"U.S.","subsection":"Politics","title":"Key
+        G.O.P. Senator in Court Fight Gets Tough Election Foe","abstract":"Patty Judge,
+        a former Iowa lieutenant governor, is expected to announce her challenge this
+        weekend to Charles Grassley, who has refused to consider an Obama choice for
+        the Supreme Court.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/charles-grassley-patty-judge-iowa-senate-race.html","byline":"By
+        JENNIFER STEINHAUER","item_type":"Article","updated_date":"2016-03-03T11:00:37-5:00","created_date":"2016-03-03T11:00:39-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Elections, Senate"],"org_facet":["Democratic
+        Party"],"per_facet":["Grassley, Charles E","Patty Judge"],"geo_facet":["Iowa"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04congweb1\/04congweb1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"John
+        Richard for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04congweb1\/04congweb1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"John
+        Richard for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04congweb1\/04congweb1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"John
+        Richard for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04congweb1\/04congweb1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"John
+        Richard for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04congweb1\/04congweb1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"John
+        Richard for The New York Times"}]},{"section":"Sports","subsection":"Soccer","title":"Ex-Soccer
+        Star to Donate Her Brain for C.T.E. Research","abstract":"Brandi Chastain,
+        who scored the winning shootout goal for the United States in the 1999 World
+        Cup final, cited growing concerns over the long-term safety of heading the
+        ball.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/sports\/soccer\/brandi-chastain-to-donate-her-brain-for-cte-research.html","byline":"By
+        JOHN BRANCH","item_type":"Article","updated_date":"2016-03-03T09:00:28-5:00","created_date":"2016-03-03T09:00:30-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Soccer","Chronic
+        Traumatic Encephalopathy"],"org_facet":"","per_facet":["Chastain, Brandi"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04webchastain\/04webchastain-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Brandi
+        Chastain after scoring the winning shootout goal in the 1999 World Cup final.
+        She has agreed to donate her brain to researchers at Boston University.","copyright":"Roberto
+        Schmidt\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04webchastain\/04webchastain-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Brandi
+        Chastain after scoring the winning shootout goal in the 1999 World Cup final.
+        She has agreed to donate her brain to researchers at Boston University.","copyright":"Roberto
+        Schmidt\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04webchastain\/04webchastain-articleInline.jpg","format":"Normal","height":258,"width":190,"type":"image","subtype":"photo","caption":"Brandi
+        Chastain after scoring the winning shootout goal in the 1999 World Cup final.
+        She has agreed to donate her brain to researchers at Boston University.","copyright":"Roberto
+        Schmidt\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04webchastain\/04webchastain-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Brandi
+        Chastain after scoring the winning shootout goal in the 1999 World Cup final.
+        She has agreed to donate her brain to researchers at Boston University.","copyright":"Roberto
+        Schmidt\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04webchastain\/04webchastain-superJumbo.jpg","format":"superJumbo","height":1800,"width":1324,"type":"image","subtype":"photo","caption":"Brandi
+        Chastain after scoring the winning shootout goal in the 1999 World Cup final.
+        She has agreed to donate her brain to researchers at Boston University.","copyright":"Roberto
+        Schmidt\/Agence France-Presse \u2014 Getty Images"}]},{"section":"World","subsection":"Europe","title":"In
+        Ukraine Towns Ravaged by War, Missionaries Find Fertile Ground","abstract":"As
+        Ukrainian forces and Russian-backed separatists carry on an almost forgotten
+        fight, several evangelical groups are staging a campaign of their own.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/world\/europe\/in-ukraine-towns-ravaged-by-war-missionaries-find-fertile-ground.html","byline":"By
+        ANDREW E. KRAMER","item_type":"Article","updated_date":"2016-03-03T12:19:57-5:00","created_date":"2016-03-03T12:19:59-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Missionaries","Evangelical
+        Movement","Russian Orthodox Church"],"org_facet":"","per_facet":"","geo_facet":["Ukraine"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/world\/04ukraine-web1\/04ukraine-web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Sergei
+        N. Kosyak led a service at the Christian Aid Center of the Transfiguration
+        Church in Maryinka, Ukraine, last month.","copyright":"Brendan Hoffman for
+        The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/world\/04ukraine-web1\/04ukraine-web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Sergei
+        N. Kosyak led a service at the Christian Aid Center of the Transfiguration
+        Church in Maryinka, Ukraine, last month.","copyright":"Brendan Hoffman for
+        The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/world\/04ukraine-web1\/04ukraine-web1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Sergei
+        N. Kosyak led a service at the Christian Aid Center of the Transfiguration
+        Church in Maryinka, Ukraine, last month.","copyright":"Brendan Hoffman for
+        The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/world\/04ukraine-web1\/04ukraine-web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Sergei
+        N. Kosyak led a service at the Christian Aid Center of the Transfiguration
+        Church in Maryinka, Ukraine, last month.","copyright":"Brendan Hoffman for
+        The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/world\/04ukraine-web1\/04ukraine-web1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Sergei
+        N. Kosyak led a service at the Christian Aid Center of the Transfiguration
+        Church in Maryinka, Ukraine, last month.","copyright":"Brendan Hoffman for
+        The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Chief
+        Justice Rejects Bid to Block Limit on Power Plants","abstract":"Chief Justice
+        John G. Roberts Jr. blocked a bid by 20 states to halt a regulation on emissions
+        of toxic pollutants from coal-fired power plants while the E.P.A. reviews
+        its costs.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/supreme-court-chief-justice-john-roberts-epa-coal.html","byline":"By
+        ADAM LIPTAK","item_type":"Article","updated_date":"2016-03-03T11:21:30-5:00","created_date":"2016-03-03T11:21:32-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Greenhouse
+        Gas Emissions","Factories and Manufacturing","Environment","Regulation and
+        Deregulation of Industry","Coal"],"org_facet":["Environmental Protection Agency","Supreme
+        Court (US)"],"per_facet":["Roberts, John G Jr"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"}]},{"section":"World","subsection":"Asia Pacific","title":"China\u2019s
+        Remedy for Economy Has Echoes of Reagan","abstract":"\u201cSupply-side structural
+        reform\u201d represents an effort to rejuvenate President Xi Jinping\u2019s
+        faltering plans to overhaul the economy.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/world\/asia\/xi-jinping-china-economic-policy.html","byline":"By
+        CHRIS BUCKLEY","item_type":"Article","updated_date":"2016-03-03T13:21:01-5:00","created_date":"2016-03-03T05:00:29-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Economics
+        (Theory and Philosophy)","Economic Conditions and Trends"],"org_facet":["Communist
+        Party of China","National People''s Congress (China)"],"per_facet":["Xi Jinping","Reagan,
+        Ronald Wilson","Thatcher, Margaret H"],"geo_facet":["China"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/04chinaecon-web\/04chinaecon-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Recruiters
+        talked to job seekers at a job fair in Beijing last month. A whole generation
+        of Chinese youth raised in a roaring economy over the past decade are coming
+        of age in a period of material uncertainty as jobs come less easily.","copyright":"Damir
+        Sagolj\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/04chinaecon-web\/04chinaecon-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Recruiters
+        talked to job seekers at a job fair in Beijing last month. A whole generation
+        of Chinese youth raised in a roaring economy over the past decade are coming
+        of age in a period of material uncertainty as jobs come less easily.","copyright":"Damir
+        Sagolj\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/04chinaecon-web\/04chinaecon-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Recruiters
+        talked to job seekers at a job fair in Beijing last month. A whole generation
+        of Chinese youth raised in a roaring economy over the past decade are coming
+        of age in a period of material uncertainty as jobs come less easily.","copyright":"Damir
+        Sagolj\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/04chinaecon-web\/04chinaecon-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Recruiters
+        talked to job seekers at a job fair in Beijing last month. A whole generation
+        of Chinese youth raised in a roaring economy over the past decade are coming
+        of age in a period of material uncertainty as jobs come less easily.","copyright":"Damir
+        Sagolj\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/04chinaecon-web\/04chinaecon-web-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Recruiters
+        talked to job seekers at a job fair in Beijing last month. A whole generation
+        of Chinese youth raised in a roaring economy over the past decade are coming
+        of age in a period of material uncertainty as jobs come less easily.","copyright":"Damir
+        Sagolj\/Reuters"}]},{"section":"U.S.","subsection":"","title":"Millions of
+        Children at Risk as War on Lead Paint Stalls","abstract":"Four decades ago,
+        political leaders declared war on lead, citing evidence of its pernicious
+        impact on young brains. But the crusade remains unfinished.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/lead-paint-contamination-persists-in-many-cities-as-cleanup-falters.html","byline":"By
+        MICHAEL WINES","item_type":"Article","updated_date":"2016-03-03T12:33:52-5:00","created_date":"2016-03-03T12:33:56-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Lead","Hazardous
+        and Toxic Substances","Children and Childhood","Poisoning and Poisons"],"org_facet":["Centers
+        for Disease Control and Prevention"],"per_facet":"","geo_facet":["Cleveland
+        (Ohio)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"}]},{"section":"Arts","subsection":"Art
+        & Design","title":"A Soaring Symbol of a Boondoggle","abstract":"The World
+        Trade Center Transportation Hub, opening Thursday, gives the city an Instagram-ready
+        attraction and the most expensive train station ever.","url":"http:\/\/www.nytimes.com\/2016\/03\/03\/arts\/design\/santiago-calatravas-transit-hub-is-a-soaring-symbol-of-a-boondoggle.html","byline":"By
+        MICHAEL KIMMELMAN","item_type":"Article","updated_date":"2016-03-02T18:03:35-5:00","created_date":"2016-03-02T18:03:37-5:00","published_date":"2016-03-03T00:00:00-5:00","material_type_facet":"Review","kicker":"","des_facet":["Architecture","Transit
+        Systems","World Trade Center (Manhattan, NY)","Stations and Terminals (Passenger)"],"org_facet":["Port
+        Authority of New York and New Jersey","World Trade Center Transportation Hub"],"per_facet":["Calatrava,
+        Santiago"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04calatrava2_hp\/04calatrava2_hp-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        new World Trade Center transit hub, designed by Santiago Calatrava, on Thursday.","copyright":"Bryan
+        Thomas for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04calatrava2_hp\/04calatrava2_hp-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        new World Trade Center transit hub, designed by Santiago Calatrava, on Thursday.","copyright":"Bryan
+        Thomas for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04calatrava2_hp\/04calatrava2_hp-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"The
+        new World Trade Center transit hub, designed by Santiago Calatrava, on Thursday.","copyright":"Bryan
+        Thomas for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04calatrava2_hp\/04calatrava2_hp-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        new World Trade Center transit hub, designed by Santiago Calatrava, on Thursday.","copyright":"Bryan
+        Thomas for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04calatrava2_hp\/04calatrava2_hp-superJumbo.jpg","format":"superJumbo","height":1227,"width":1843,"type":"image","subtype":"photo","caption":"The
+        new World Trade Center transit hub, designed by Santiago Calatrava, on Thursday.","copyright":"Bryan
+        Thomas for The New York Times"}]},{"section":"Magazine","subsection":"","title":"10
+        Shots Across the Border","abstract":"The killing of a Mexican 16-year-old
+        raises troubling questions about the United States Border Patrol.","url":"http:\/\/www.nytimes.com\/2016\/03\/06\/magazine\/10-shots-across-the-border.html","byline":"By
+        MARK BINELLI","item_type":"Article","updated_date":"2016-03-03T06:55:55-5:00","created_date":"2016-03-03T06:55:58-5:00","published_date":"2016-03-06T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Police
+        Brutality, Misconduct and Shootings","Immigration and Emigration"],"org_facet":["Border
+        Patrol (US)","Homeland Security Office of Inspector General","Customs and
+        Border Protection (US)","Immigration and Customs Enforcement (US)"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-superJumbo.jpg","format":"superJumbo","height":1354,"width":2048,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Living
+        in an S.U.V., Seen as a Menace, Then as a Neighbor","abstract":"Living out
+        of a Ford Explorer in Brooklyn after losing his home, an unemployed chemist
+        changed his own trajectory while stirring the altruistic impulses of some
+        who were wary of him.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/nyregion\/making-the-journey-from-menace-to-neighbor-all-on-one-brooklyn-block.html","byline":"By
+        JIM DWYER","item_type":"Article","updated_date":"2016-03-03T05:00:02-5:00","created_date":"2016-03-03T05:00:06-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Homeless
+        Persons"],"org_facet":"","per_facet":"","geo_facet":["Park Slope (Brooklyn,
+        NY)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-articleInline.jpg","format":"Normal","height":121,"width":190,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-superJumbo.jpg","format":"superJumbo","height":1309,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"}]},{"section":"Arts","subsection":"Television","title":"Arguing
+        About the Klan in 2016. Really.","abstract":"On CNN, Jeffrey Lord, a conservative,
+        and Van Jones, a liberal, went head-to-head over Mr. Trump and the Ku Klux
+        Klan.","url":"http:\/\/www.nytimes.com\/2016\/03\/03\/arts\/television\/cnn-commentators-argue-over-trump-and-the-ku-klux-klan.html","byline":"By
+        JAMES PONIEWOZIK","item_type":"Article","updated_date":"2016-03-02T13:16:17-5:00","created_date":"2016-03-02T13:16:19-5:00","published_date":"2016-03-03T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","Television"],"org_facet":["Ku Klux Klan","CNN","Republican
+        Party"],"per_facet":["Jones, Van","Lord, Jeffrey","Trump, Donald J","Cupp,
+        S E"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/arts\/03CNNKKKSUB\/03CNNKKKSUB-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Jeffrey
+        Lord, left, and Van Jones discussing the Ku Klux Klan and Donald J. Trump
+        on CNN on Tuesday night.","copyright":"CNN"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/arts\/03CNNKKKSUB\/03CNNKKKSUB-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Jeffrey
+        Lord, left, and Van Jones discussing the Ku Klux Klan and Donald J. Trump
+        on CNN on Tuesday night.","copyright":"CNN"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/arts\/03CNNKKKSUB\/03CNNKKKSUB-articleInline.jpg","format":"Normal","height":107,"width":190,"type":"image","subtype":"photo","caption":"Jeffrey
+        Lord, left, and Van Jones discussing the Ku Klux Klan and Donald J. Trump
+        on CNN on Tuesday night.","copyright":"CNN"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/arts\/03CNNKKKSUB\/03CNNKKKSUB-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Jeffrey
+        Lord, left, and Van Jones discussing the Ku Klux Klan and Donald J. Trump
+        on CNN on Tuesday night.","copyright":"CNN"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/arts\/03CNNKKKSUB\/03CNNKKKSUB-superJumbo.jpg","format":"superJumbo","height":1152,"width":2048,"type":"image","subtype":"photo","caption":"Jeffrey
+        Lord, left, and Van Jones discussing the Ku Klux Klan and Donald J. Trump
+        on CNN on Tuesday night.","copyright":"CNN"}]},{"section":"Travel","subsection":"","title":"Saudi
+        Arabia, Magnificent and Forbidding to Tourists","abstract":"Untrammeled beaches,
+        ancient sites and unfiltered local culture are all on offer in Saudi Arabia.
+        Just don\u2019t expect an easy trip.","url":"http:\/\/www.nytimes.com\/2016\/03\/06\/travel\/saudi-arabia-tourism.html","byline":"By
+        BEN HUBBARD","item_type":"Article","updated_date":"2016-03-03T05:00:25-5:00","created_date":"2016-03-03T05:00:28-5:00","published_date":"2016-03-06T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Travel
+        and Vacations"],"org_facet":"","per_facet":"","geo_facet":["Saudi Arabia"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"}]},{"section":"World","subsection":"Europe","title":"A
+        Swedish Girl, ISIS and a Cautionary Tale","abstract":"The story of Marilyn
+        Nevalainen stands out as a rare case in which a young European went unwittingly
+        into the heart of jihadist territory and was freed.","url":"http:\/\/www.nytimes.com\/2016\/03\/03\/world\/europe\/a-swedish-girl-isis-and-a-cautionary-tale-of-global-terrorism.html","byline":"By
+        ALISSA J. RUBIN","item_type":"Article","updated_date":"2016-03-02T15:38:56-5:00","created_date":"2016-03-02T15:38:58-5:00","published_date":"2016-03-03T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Terrorism","Kurds"],"org_facet":["Islamic
+        State in Iraq and Syria (ISIS)"],"per_facet":["Nevalainen, Marilyn"],"geo_facet":["Sweden","Iraq","Syria","Mosul
+        (Iraq)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/03SWEDISHGIRL-web1\/03SWEDISHGIRL-web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"An
+        undated photograph of Marilyn Nevalainen. The Swedish teenager ended up with
+        Islamic State militants near Mosul, Iraq, with a new baby to care for and
+        her boyfriend dead on the battlefield.","copyright":"Office of The Chancellor
+        Kurdistan Region Security Council, via Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/03SWEDISHGIRL-web1\/03SWEDISHGIRL-web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"An
+        undated photograph of Marilyn Nevalainen. The Swedish teenager ended up with
+        Islamic State militants near Mosul, Iraq, with a new baby to care for and
+        her boyfriend dead on the battlefield.","copyright":"Office of The Chancellor
+        Kurdistan Region Security Council, via Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/03SWEDISHGIRL-web1\/03SWEDISHGIRL-web1-articleInline.jpg","format":"Normal","height":143,"width":190,"type":"image","subtype":"photo","caption":"An
+        undated photograph of Marilyn Nevalainen. The Swedish teenager ended up with
+        Islamic State militants near Mosul, Iraq, with a new baby to care for and
+        her boyfriend dead on the battlefield.","copyright":"Office of The Chancellor
+        Kurdistan Region Security Council, via Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/03SWEDISHGIRL-web1\/03SWEDISHGIRL-web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"An
+        undated photograph of Marilyn Nevalainen. The Swedish teenager ended up with
+        Islamic State militants near Mosul, Iraq, with a new baby to care for and
+        her boyfriend dead on the battlefield.","copyright":"Office of The Chancellor
+        Kurdistan Region Security Council, via Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/world\/03SWEDISHGIRL-web1\/03SWEDISHGIRL-web1-superJumbo.jpg","format":"superJumbo","height":852,"width":1136,"type":"image","subtype":"photo","caption":"An
+        undated photograph of Marilyn Nevalainen. The Swedish teenager ended up with
+        Islamic State militants near Mosul, Iraq, with a new baby to care for and
+        her boyfriend dead on the battlefield.","copyright":"Office of The Chancellor
+        Kurdistan Region Security Council, via Reuters"}]}]}'
+    http_version: 
+  recorded_at: Thu, 03 Mar 2016 19:37:38 GMT
+recorded_with: VCR 3.0.1

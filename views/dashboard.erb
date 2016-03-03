@@ -1,0 +1,28 @@
+<div class="small-6 small-offset-3 columns">
+  <div class="callout primary">
+    <h3>IP</h3>
+    <p>"<%= @ip %>"</p>
+  </div>
+  <h3>News </h3>
+  <%url2 = URI('http://api.nytimes.com/svc/topstories/v1/home.json?api-key=10e123446a9912fe513a27a4278990d7:18:74615897')%>
+  <%response2 = Net::HTTP.get(url2)%>
+  <%info2 = JSON.parse(response2)%>
+  <%info2.values[5].each do |info|%>
+    <%=info['title']%>
+  <%end%>
+  <div class="callout primary">
+    <h3>Location</h3>
+    <%=@articles%>
+    <% url = URI("http://api.wunderground.com/api/c1b0c1c05588980a/conditions/q/#{@geolocation.state}/#{@geolocation.city}.json") %>
+    <%response = Net::HTTP.get(url)%>
+    <%res = response%>
+    <%info = JSON.parse(res)%>
+    <%=info['current_observation']['temp_f']%>&deg
+      <%=info['current_observation']['weather']%>
+    <p>
+      <%= @geolocation.city %>,
+      <%= @geolocation.state %>,
+      <%= @geolocation.country %>
+    </p>
+  </div>
+</div>
