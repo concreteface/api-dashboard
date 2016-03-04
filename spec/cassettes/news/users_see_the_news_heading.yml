@@ -1,0 +1,371 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=10e123446a9912fe513a27a4278990d7:18:74615897
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.nytimes.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Mashery-Responder:
+      - prod-j-worker-atl-01.mashery.com
+      X-Amz-Id-2:
+      - 2Kyj95ic87wEKzoEGhqtszhJavdypv+9HoZBfqs13/z3bfHkozbKxQ60Th1FIzeZTOAcFIzj+xU=
+      X-Amz-Request-Id:
+      - CDC23F44264AFF11
+      Date:
+      - Fri, 04 Mar 2016 02:14:02 GMT
+      Expires:
+      - Fri, 04 Mar 2016 02:13:23 GMT
+      Cache-Control:
+      - max-age=60
+      Last-Modified:
+      - Fri, 04 Mar 2016 02:12:24 GMT
+      Etag:
+      - '"7cfd50c61e499ca52742e060ecee850b"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/json
+      Content-Length:
+      - '42540'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.
+        All Rights Reserved.","section":"home","last_updated":"2016-03-03T21:12:02-05:00","num_results":18,"results":[{"section":"U.S.","subsection":"Politics","title":"A
+        Wounded Marco Rubio Falls Back to Florida","abstract":"The senator is redirecting
+        resources toward his home state as some suggest his best hope may lie in a
+        convention battle.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/marco-rubio-florida.html","byline":"By
+        JEREMY W. PETERS","item_type":"Article","updated_date":"2016-03-03T17:17:47-5:00","created_date":"2016-03-03T13:59:26-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","Primaries and Caucuses"],"org_facet":["Republican Party"],"per_facet":["Rubio,
+        Marco"],"geo_facet":["Florida"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04rubio-web\/04rubio-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Senator
+        Marco Rubio in Miami on Tuesday. He is redirecting his time and resources
+        to Florida between now and the crucial March 15 winner-take-all primary.","copyright":"Eric
+        Thayer for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04rubio-web\/04rubio-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Senator
+        Marco Rubio in Miami on Tuesday. He is redirecting his time and resources
+        to Florida between now and the crucial March 15 winner-take-all primary.","copyright":"Eric
+        Thayer for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04rubio-web\/04rubio-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Senator
+        Marco Rubio in Miami on Tuesday. He is redirecting his time and resources
+        to Florida between now and the crucial March 15 winner-take-all primary.","copyright":"Eric
+        Thayer for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04rubio-web\/04rubio-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Senator
+        Marco Rubio in Miami on Tuesday. He is redirecting his time and resources
+        to Florida between now and the crucial March 15 winner-take-all primary.","copyright":"Eric
+        Thayer for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04rubio-web\/04rubio-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Senator
+        Marco Rubio in Miami on Tuesday. He is redirecting his time and resources
+        to Florida between now and the crucial March 15 winner-take-all primary.","copyright":"Eric
+        Thayer for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Clinton\u2019s
+        Email Server Logs Said to Show No Hacking","abstract":"The records bolster
+        her assertion that her use of a personal account as secretary of state did
+        not give secrets to hackers or foreign governments.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/security-logs-of-hillary-clintons-email-server-are-said-to-show-no-evidence-of-hacking.html","byline":"By
+        MATT APUZZO","item_type":"Article","updated_date":"2016-03-03T17:02:02-5:00","created_date":"2016-03-03T17:02:04-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["E-Mail","Computer
+        Security"],"org_facet":["Federal Bureau of Investigation","Justice Department","State
+        Department"],"per_facet":["Clinton, Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04EMAILS-web\/04EMAILS-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Bryan
+        Pagliano after invoking his Fifth Amendment right before Congress last year.
+        Mr. Pagliano, who set up Hilary Clinton\u2019s private server, has cooperated
+        with the F.B.I. under a limited immunity deal.","copyright":"Saul Loeb\/Agence
+        France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04EMAILS-web\/04EMAILS-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Bryan
+        Pagliano after invoking his Fifth Amendment right before Congress last year.
+        Mr. Pagliano, who set up Hilary Clinton\u2019s private server, has cooperated
+        with the F.B.I. under a limited immunity deal.","copyright":"Saul Loeb\/Agence
+        France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04EMAILS-web\/04EMAILS-web-articleInline.jpg","format":"Normal","height":132,"width":190,"type":"image","subtype":"photo","caption":"Bryan
+        Pagliano after invoking his Fifth Amendment right before Congress last year.
+        Mr. Pagliano, who set up Hilary Clinton\u2019s private server, has cooperated
+        with the F.B.I. under a limited immunity deal.","copyright":"Saul Loeb\/Agence
+        France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04EMAILS-web\/04EMAILS-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Bryan
+        Pagliano after invoking his Fifth Amendment right before Congress last year.
+        Mr. Pagliano, who set up Hilary Clinton\u2019s private server, has cooperated
+        with the F.B.I. under a limited immunity deal.","copyright":"Saul Loeb\/Agence
+        France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04EMAILS-web\/04EMAILS-web-superJumbo.jpg","format":"superJumbo","height":1427,"width":2048,"type":"image","subtype":"photo","caption":"Bryan
+        Pagliano after invoking his Fifth Amendment right before Congress last year.
+        Mr. Pagliano, who set up Hilary Clinton\u2019s private server, has cooperated
+        with the F.B.I. under a limited immunity deal.","copyright":"Saul Loeb\/Agence
+        France-Presse \u2014 Getty Images"}]},{"section":"U.S.","subsection":"Politics","title":"Romney
+        Leads Open Warfare: \u2018Trump Is a Phony\u2019","abstract":"Mitt Romney
+        and John McCain, the last two G.O.P. nominees, warned that a Trump presidency
+        would put the country in peril.","url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2016\/03\/03\/mitt-romney-donald-trump\/","byline":"By
+        ALEXANDER BURNS and MICHAEL BARBARO","item_type":"Blogpost","updated_date":"2016-03-03T20:42:37-5:00","created_date":"2016-03-03T08:58:11-5:00","published_date":"2016-03-03T08:56:20-5:00","material_type_facet":"News","kicker":"First
+        Draft","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":""},{"section":"U.S.","subsection":"Politics","title":"Trump
+        Hits Back, Calls Romney a \u2018Failed Candidate\u2019","abstract":"Mr. Trump
+        struck back against Mr. Romney, deriding the 2012 Republican presidential
+        nominee as \u201ca choke artist\u201d who should keep his nose out of the
+        presidential race.","url":"http:\/\/www.nytimes.com\/politics\/first-draft\/2016\/03\/03\/donald-trump-dismisses-mitt-romney-as-a-lightweight-and-a-failed-candidate\/","byline":"By
+        ALAN RAPPEPORT","item_type":"Blogpost","updated_date":"2016-03-03T15:51:43-5:00","created_date":"2016-03-03T15:37:09-5:00","published_date":"2016-03-03T15:35:05-5:00","material_type_facet":"News","kicker":"First
+        Draft","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":""},{"section":"U.S.","subsection":"Politics","title":"Key
+        G.O.P. Senator in Court Fight Gets Tough Election Foe","abstract":"Patty Judge,
+        a former Iowa lieutenant governor, is expected to announce her challenge this
+        weekend to Charles Grassley, who has refused to consider an Obama choice for
+        the Supreme Court.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/charles-grassley-patty-judge-iowa-senate-race.html","byline":"By
+        JENNIFER STEINHAUER and DAVID M. HERSZENHORN","item_type":"Article","updated_date":"2016-03-03T21:01:21-5:00","created_date":"2016-03-03T11:00:39-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Elections, Senate"],"org_facet":["Democratic
+        Party"],"per_facet":["Grassley, Charles E","Patty Judge"],"geo_facet":["Iowa"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04cong-webALT\/04cong-webALT-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"Gabriella
+        Demczuk for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04cong-webALT\/04cong-webALT-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"Gabriella
+        Demczuk for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04cong-webALT\/04cong-webALT-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"Gabriella
+        Demczuk for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04cong-webALT\/04cong-webALT-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"Gabriella
+        Demczuk for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04cong-webALT\/04cong-webALT-superJumbo.jpg","format":"superJumbo","height":1367,"width":2048,"type":"image","subtype":"photo","caption":"Senator
+        Charles Grassley, the chairman of the Senate Judiciary Committee, has come
+        under fire for his refusal to hold hearings on a nominee for the Supreme Court.","copyright":"Gabriella
+        Demczuk for The New York Times"}]},{"section":"Times Insider","subsection":"","title":"Times
+        Insider: Justice Thomas Talks and People Listen","abstract":"Justice Clarence
+        Thomas breaks his 10-year silence. A Times reporter misses the moment but
+        gets the story \u2014 and its significance.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/insider\/justice-thomas-talks-people-listen-reporters-notebook.html","byline":"By
+        ADAM LIPTAK","item_type":"Article","updated_date":"2016-03-03T17:17:56-5:00","created_date":"2016-03-03T17:17:58-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":"","org_facet":["Supreme
+        Court (US)","SCOTUSblog"],"per_facet":["Thomas, Clarence","Scalia, Antonin"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/insider\/3-insider-THOMAS-pic\/3-insider-THOMAS-pic-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Supreme
+        Court Justice Clarence Thomas","copyright":"Pool photo by Susan Walsh"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/insider\/3-insider-THOMAS-pic\/3-insider-THOMAS-pic-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Supreme
+        Court Justice Clarence Thomas","copyright":"Pool photo by Susan Walsh"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/insider\/3-insider-THOMAS-pic\/3-insider-THOMAS-pic-articleInline.jpg","format":"Normal","height":190,"width":190,"type":"image","subtype":"photo","caption":"Supreme
+        Court Justice Clarence Thomas","copyright":"Pool photo by Susan Walsh"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/insider\/3-insider-THOMAS-pic\/3-insider-THOMAS-pic-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Supreme
+        Court Justice Clarence Thomas","copyright":"Pool photo by Susan Walsh"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/insider\/3-insider-THOMAS-pic\/3-insider-THOMAS-pic-superJumbo.jpg","format":"superJumbo","height":1445,"width":1445,"type":"image","subtype":"photo","caption":"Supreme
+        Court Justice Clarence Thomas","copyright":"Pool photo by Susan Walsh"}]},{"section":"Business
+        Day","subsection":"","title":"Why the G.O.P. May Want to Consider Obama\u2019s
+        Nomination","abstract":"Given recent poll numbers and the chance that they
+        may lose the Senate, Republicans might want to consider an Obama nominee for
+        the Supreme Court.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/business\/a-way-to-a-deal-on-a-supreme-court-nomination.html","byline":"By
+        JAMES B. STEWART","item_type":"Article","updated_date":"2016-03-03T14:49:52-5:00","created_date":"2016-03-03T14:49:54-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016"],"org_facet":["Supreme Court (US)"],"per_facet":["Scalia,
+        Antonin"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/business\/04stewart\/04stewart-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Antonin
+        Scalia\u2019s chair at the Supreme Court was draped in black last month. Senate
+        Republican leaders want nomination of a successor left to the next president.","copyright":"Zach
+        Gibson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/business\/04stewart\/04stewart-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Antonin
+        Scalia\u2019s chair at the Supreme Court was draped in black last month. Senate
+        Republican leaders want nomination of a successor left to the next president.","copyright":"Zach
+        Gibson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/business\/04stewart\/04stewart-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Antonin
+        Scalia\u2019s chair at the Supreme Court was draped in black last month. Senate
+        Republican leaders want nomination of a successor left to the next president.","copyright":"Zach
+        Gibson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/business\/04stewart\/04stewart-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Antonin
+        Scalia\u2019s chair at the Supreme Court was draped in black last month. Senate
+        Republican leaders want nomination of a successor left to the next president.","copyright":"Zach
+        Gibson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/business\/04stewart\/04stewart-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Antonin
+        Scalia\u2019s chair at the Supreme Court was draped in black last month. Senate
+        Republican leaders want nomination of a successor left to the next president.","copyright":"Zach
+        Gibson\/The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Plans
+        for Oil Wells Off East Coast Appall Beach Lovers","abstract":"Many coastal
+        residents, fearing a repeat of the 2010 Deepwater Horizon oil spill, see potential
+        disaster, while those inland speak of economic opportunity.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/divide-grows-in-southeast-over-offshore-drilling-plan.html","byline":"By
+        CORAL DAVENPORT","item_type":"Article","updated_date":"2016-03-03T09:59:21-5:00","created_date":"2016-03-03T09:59:23-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Oil
+        (Petroleum) and Gasoline","Offshore Drilling and Exploration"],"org_facet":"","per_facet":["Obama,
+        Barack"],"geo_facet":["North Carolina"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/26\/us\/00drilling-web01\/00drilling-web01-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Homes
+        in Kure Beach, N.C., where many residents are opposed to oil drilling off
+        their shoreline.","copyright":"Travis Dove for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/26\/us\/00drilling-web01\/00drilling-web01-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Homes
+        in Kure Beach, N.C., where many residents are opposed to oil drilling off
+        their shoreline.","copyright":"Travis Dove for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/26\/us\/00drilling-web01\/00drilling-web01-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Homes
+        in Kure Beach, N.C., where many residents are opposed to oil drilling off
+        their shoreline.","copyright":"Travis Dove for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/26\/us\/00drilling-web01\/00drilling-web01-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Homes
+        in Kure Beach, N.C., where many residents are opposed to oil drilling off
+        their shoreline.","copyright":"Travis Dove for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/26\/us\/00drilling-web01\/00drilling-web01-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Homes
+        in Kure Beach, N.C., where many residents are opposed to oil drilling off
+        their shoreline.","copyright":"Travis Dove for The New York Times"}]},{"section":"U.S.","subsection":"","title":"Millions
+        of Children at Risk as War on Lead Paint Stalls","abstract":"Four decades
+        ago, political leaders declared war on lead, citing evidence of its pernicious
+        impact on young brains. But the crusade remains unfinished.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/lead-paint-contamination-persists-in-many-cities-as-cleanup-falters.html","byline":"By
+        MICHAEL WINES","item_type":"Article","updated_date":"2016-03-03T12:33:52-5:00","created_date":"2016-03-03T12:33:56-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Lead","Hazardous
+        and Toxic Substances","Children and Childhood","Poisoning and Poisons"],"org_facet":["Centers
+        for Disease Control and Prevention"],"per_facet":"","geo_facet":["Cleveland
+        (Ohio)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/02\/28\/us\/00cleveland-web02\/00cleveland-web02-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"A
+        sign in Cleveland advising parents to have their children examined for lead
+        poisoning.","copyright":"Maddie McGarvey for The New York Times"}]},{"section":"Technology","subsection":"","title":"Apple
+        Is Rolling Up Supporters in F.B.I. Fight","abstract":"A group of 17 Internet
+        companies, including Twitter, eBay, Airbnb and LinkedIn, submitted a joint
+        court brief in support of Apple. More are expected.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/technology\/apple-support-court-briefs-fbi.html","byline":"By
+        NICK WINGFIELD","item_type":"Article","updated_date":"2016-03-03T16:28:58-5:00","created_date":"2016-03-03T16:29:00-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Privacy","iPhone"],"org_facet":["Apple
+        Inc"],"per_facet":["Cook, Timothy D"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/business\/03appleish\/03appleish-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Tech
+        firms were initially careful in their support of Apple in its fight with the
+        F.B.I., but now they are more forcefully backing Apple.","copyright":"Philippe
+        Huguen\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/business\/03appleish\/03appleish-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Tech
+        firms were initially careful in their support of Apple in its fight with the
+        F.B.I., but now they are more forcefully backing Apple.","copyright":"Philippe
+        Huguen\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/business\/03appleish\/03appleish-articleInline.jpg","format":"Normal","height":124,"width":190,"type":"image","subtype":"photo","caption":"Tech
+        firms were initially careful in their support of Apple in its fight with the
+        F.B.I., but now they are more forcefully backing Apple.","copyright":"Philippe
+        Huguen\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/business\/03appleish\/03appleish-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Tech
+        firms were initially careful in their support of Apple in its fight with the
+        F.B.I., but now they are more forcefully backing Apple.","copyright":"Philippe
+        Huguen\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/business\/03appleish\/03appleish-superJumbo.jpg","format":"superJumbo","height":1335,"width":2048,"type":"image","subtype":"photo","caption":"Tech
+        firms were initially careful in their support of Apple in its fight with the
+        F.B.I., but now they are more forcefully backing Apple.","copyright":"Philippe
+        Huguen\/Agence France-Presse \u2014 Getty Images"}]},{"section":"U.S.","subsection":"Politics","title":"Chief
+        Justice Rejects Bid to Block E.P.A. Limits","abstract":"Chief Justice John
+        G. Roberts Jr. blocked a bid by 20 states to halt a regulation on emissions
+        of toxic pollutants from coal-fired power plants while the E.P.A. reviews
+        its costs.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/supreme-court-chief-justice-john-roberts-epa-coal.html","byline":"By
+        ADAM LIPTAK and CORAL DAVENPORT","item_type":"Article","updated_date":"2016-03-03T15:21:43-5:00","created_date":"2016-03-03T11:21:32-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Greenhouse
+        Gas Emissions","Factories and Manufacturing","Environment","Regulation and
+        Deregulation of Industry","Coal"],"org_facet":["Environmental Protection Agency","Supreme
+        Court (US)"],"per_facet":["Roberts, John G Jr"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04scotus-web\/04scotus-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Chief
+        Justice John G. Roberts Jr. speaking at New York University in November.","copyright":"Richard
+        Perry\/The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Health
+        Insurance Enrollment Reaches 20 Million","abstract":"The president went to
+        Milwaukee to highlight the success of health care coverage under the act.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/obama-heads-to-wisconsin-to-promote-successes-of-affordable-care-act.html","byline":"By
+        GARDINER HARRIS","item_type":"Article","updated_date":"2016-03-03T18:15:21-5:00","created_date":"2016-03-03T05:00:05-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Patient
+        Protection and Affordable Care Act (2010)","Medicaid","Health Insurance and
+        Managed Care","Federal Aid (US)"],"org_facet":"","per_facet":["Obama, Barack","Walker,
+        Scott K"],"geo_facet":["Wisconsin"],"multimedia":""},{"section":"U.S.","subsection":"Politics","title":"Obamas
+        to Stay in Washington After Term Ends","abstract":"President Obama said during
+        a visit to Milwaukee that &#8220;we&#8217;re going to have to stay&#8221;
+        in the capital until his younger daughter, Sasha, finishes high school.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/us\/politics\/daughter-will-keep-the-obamas-in-washington.html","byline":"By
+        GARDINER HARRIS","item_type":"Article","updated_date":"2016-03-03T20:28:12-5:00","created_date":"2016-03-03T20:28:15-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016"],"org_facet":["Sidwell Friends School","Columbia University"],"per_facet":["Obama,
+        Barack","Obama, Sasha","Nesbitt, Martin"],"geo_facet":["Washington (DC)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04HOME-web\/04HOME-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President
+        Obama with daughter Malia, and the first lady, Michelle Obama, with daughter
+        Sasha, on the White House lawn in January.","copyright":"Doug Mills\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04HOME-web\/04HOME-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President
+        Obama with daughter Malia, and the first lady, Michelle Obama, with daughter
+        Sasha, on the White House lawn in January.","copyright":"Doug Mills\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04HOME-web\/04HOME-web-articleInline.jpg","format":"Normal","height":131,"width":190,"type":"image","subtype":"photo","caption":"President
+        Obama with daughter Malia, and the first lady, Michelle Obama, with daughter
+        Sasha, on the White House lawn in January.","copyright":"Doug Mills\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04HOME-web\/04HOME-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President
+        Obama with daughter Malia, and the first lady, Michelle Obama, with daughter
+        Sasha, on the White House lawn in January.","copyright":"Doug Mills\/The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/us\/04HOME-web\/04HOME-web-superJumbo.jpg","format":"superJumbo","height":1407,"width":2048,"type":"image","subtype":"photo","caption":"President
+        Obama with daughter Malia, and the first lady, Michelle Obama, with daughter
+        Sasha, on the White House lawn in January.","copyright":"Doug Mills\/The New
+        York Times"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Living
+        in an S.U.V., Seen as a Menace, Then as a Neighbor","abstract":"Living out
+        of a Ford Explorer in Brooklyn after losing his home, an unemployed chemist
+        changed his own trajectory while stirring the altruistic impulses of some
+        who were wary of him.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/nyregion\/making-the-journey-from-menace-to-neighbor-all-on-one-brooklyn-block.html","byline":"By
+        JIM DWYER","item_type":"Article","updated_date":"2016-03-03T05:00:02-5:00","created_date":"2016-03-03T05:00:06-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Homeless
+        Persons"],"org_facet":"","per_facet":"","geo_facet":["Park Slope (Brooklyn,
+        NY)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-articleInline.jpg","format":"Normal","height":121,"width":190,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/nyregion\/04ABOUT\/04ABOUT-superJumbo.jpg","format":"superJumbo","height":1309,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Ford Explorer that has been Gene\u2019s home for a year, parked on Fifth Street
+        in the Park Slope section of Brooklyn.","copyright":"Dave Sanders for The
+        New York Times"}]},{"section":"Magazine","subsection":"","title":"10 Shots
+        Across the Border","abstract":"The killing of a Mexican 16-year-old raises
+        troubling questions about the United States Border Patrol.","url":"http:\/\/www.nytimes.com\/2016\/03\/06\/magazine\/10-shots-across-the-border.html","byline":"By
+        MARK BINELLI","item_type":"Article","updated_date":"2016-03-03T06:55:55-5:00","created_date":"2016-03-03T06:55:58-5:00","published_date":"2016-03-06T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Police
+        Brutality, Misconduct and Shootings","Immigration and Emigration"],"org_facet":["Border
+        Patrol (US)","Homeland Security Office of Inspector General","Customs and
+        Border Protection (US)","Immigration and Customs Enforcement (US)"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/magazine\/06borderpatrol-slide-QJT8\/06borderpatrol-slide-QJT8-superJumbo.jpg","format":"superJumbo","height":1354,"width":2048,"type":"image","subtype":"photo","caption":"The
+        shadow of the border fence looming over the spot where Jos\u00e9 Antonio Elena
+        Rodr\u00edguez, 16, was shot and killed in Nogales, Mexico, by a Border Patrol
+        agent standing on the Arizona side.","copyright":"Kirsten Luce for The New
+        York Times"}]},{"section":"Sports","subsection":"","title":"For Tom Brady
+        and the N.F.L., More Deflategate","abstract":"More than a year later, the
+        bizarre spectacle known as Deflategate is still not over. The latest chapter
+        began Thursday in federal court.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/sports\/deflategate-appeal-tom-brady-roger-goodell.html","byline":"By
+        VICTOR MATHER","item_type":"Article","updated_date":"2016-03-03T05:00:27-5:00","created_date":"2016-03-03T05:00:29-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Football"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04DEFLATE2\/04DEFLATE2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Tom
+        Brady leaving federal court in New York last August. He successfully sued
+        to have his four-game suspension revoked.","copyright":"Richard Drew\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04DEFLATE2\/04DEFLATE2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Tom
+        Brady leaving federal court in New York last August. He successfully sued
+        to have his four-game suspension revoked.","copyright":"Richard Drew\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04DEFLATE2\/04DEFLATE2-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Tom
+        Brady leaving federal court in New York last August. He successfully sued
+        to have his four-game suspension revoked.","copyright":"Richard Drew\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04DEFLATE2\/04DEFLATE2-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Tom
+        Brady leaving federal court in New York last August. He successfully sued
+        to have his four-game suspension revoked.","copyright":"Richard Drew\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/03\/sports\/04DEFLATE2\/04DEFLATE2-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Tom
+        Brady leaving federal court in New York last August. He successfully sued
+        to have his four-game suspension revoked.","copyright":"Richard Drew\/Associated
+        Press"}]},{"section":"Travel","subsection":"","title":"Saudi Arabia, Magnificent
+        and Forbidding to Tourists","abstract":"Untrammeled beaches, ancient sites
+        and unfiltered local culture are all on offer in Saudi Arabia. Just don\u2019t
+        expect an easy trip.","url":"http:\/\/www.nytimes.com\/2016\/03\/06\/travel\/saudi-arabia-tourism.html","byline":"By
+        BEN HUBBARD","item_type":"Article","updated_date":"2016-03-03T05:00:25-5:00","created_date":"2016-03-03T05:00:28-5:00","published_date":"2016-03-06T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Travel
+        and Vacations"],"org_facet":"","per_facet":"","geo_facet":["Saudi Arabia"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/06\/travel\/06SAUDIARABIAJP2\/06SAUDIARABIAJP2-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Bryan
+        Denton for The New York Times"}]},{"section":"Movies","subsection":"","title":"Review:
+        Terrence Malick\u2019s \u2018Knight of Cups\u2019","abstract":"Starring Christian
+        Bale, Mr. Malick\u2019s beautifully-shot film addresses the existential, and
+        erotic, issues of a screenwriter. Read A.O. Scott\u2019s review.","url":"http:\/\/www.nytimes.com\/2016\/03\/04\/movies\/christian-bale-knight-of-cups-review.html","byline":"By
+        A. O. SCOTT","item_type":"Article","updated_date":"2016-03-03T18:02:04-5:00","created_date":"2016-03-03T18:02:06-5:00","published_date":"2016-03-04T00:00:00-5:00","material_type_facet":"Review","kicker":"","des_facet":["Movies","Knight
+        of Cups (Movie)"],"org_facet":"","per_facet":["Malick, Terrence","Bale, Christian","Blanchett,
+        Cate","Dennehy, Brian"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04KNIGHTS1\/04KNIGHTS1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Christian
+        Bale portrays a screenwriter in \u201cKnight of Cups,\u201d directed by Terrence
+        Malick.","copyright":"Melinda Sue Gordon\/Broad Green Pictures"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04KNIGHTS1\/04KNIGHTS1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Christian
+        Bale portrays a screenwriter in \u201cKnight of Cups,\u201d directed by Terrence
+        Malick.","copyright":"Melinda Sue Gordon\/Broad Green Pictures"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04KNIGHTS1\/04KNIGHTS1-articleInline-v2.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Christian
+        Bale portrays a screenwriter in \u201cKnight of Cups,\u201d directed by Terrence
+        Malick.","copyright":"Melinda Sue Gordon\/Broad Green Pictures"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04KNIGHTS1\/04KNIGHTS1-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Christian
+        Bale portrays a screenwriter in \u201cKnight of Cups,\u201d directed by Terrence
+        Malick.","copyright":"Melinda Sue Gordon\/Broad Green Pictures"},{"url":"http:\/\/static01.nyt.com\/images\/2016\/03\/04\/arts\/04KNIGHTS1\/04KNIGHTS1-superJumbo-v2.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Christian
+        Bale portrays a screenwriter in \u201cKnight of Cups,\u201d directed by Terrence
+        Malick.","copyright":"Melinda Sue Gordon\/Broad Green Pictures"}]}]}'
+    http_version: 
+  recorded_at: Fri, 04 Mar 2016 02:14:01 GMT
+recorded_with: VCR 3.0.1

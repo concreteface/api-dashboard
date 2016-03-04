@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events?venue.state=MA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.seatgeek.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Fri, 04 Mar 2016 02:16:11 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - '"ecdf1b1bac3739695e6076f9d0aa8ee49b858811"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Varnish:
+      - '997834034'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - lb-14-04-i-443d4def
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"per_page":10,"total":2502,"page":1,"geolocation":null},"events":[{"links":[],"id":3126498,"stats":{"listing_count":1,"average_price":10,"lowest_price_good_deals":null,"lowest_price":10,"highest_price":10},"title":"Room
+        - Beverly","announce_date":"2016-02-29T00:00:00","score":0.126851,"date_tbd":false,"type":"theater","datetime_local":"2016-03-03T17:30:00","visible_until_utc":"2016-03-04T02:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"performers":[{"stats":{"event_count":3},"name":"Room","short_name":"Room","url":"https:\/\/seatgeek.com\/room-1-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"room-1","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":379558}],"url":"https:\/\/seatgeek.com\/room-beverly-tickets\/theater\/2016-03-03-5-30-pm\/3126498","created_at":"2016-02-29T00:00:00","venue":{"city":"Beverly","name":"The
+        Cabot","extended_address":"Beverly, MA 01915","url":"https:\/\/seatgeek.com\/venues\/the-cabot\/tickets","country":"US","display_location":"Beverly,
+        MA","links":[],"slug":"the-cabot","state":"MA","score":0,"postal_code":"01915","location":{"lat":42.5514,"lon":-70.8789},"address":"286
+        Cabot Street","timezone":"America\/New_York","id":77657},"short_title":"Room
+        - Beverly","datetime_utc":"2016-03-03T22:30:00","datetime_tbd":false},{"links":[],"id":2827153,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Bullet
+        For My Valentine with Asking Alexandria","announce_date":"2015-09-29T00:00:00","score":0.513207,"date_tbd":false,"type":"concert","datetime_local":"2016-03-03T18:30:00","visible_until_utc":"2016-03-04T03:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":42},"name":"Bullet
+        For My Valentine","short_name":"Bullet For My Valentine","url":"https:\/\/seatgeek.com\/bullet-for-my-valentine-tickets","type":"band","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/bullet-for-my-valentine-e26081\/389\/huge.jpg","home_venue_id":null,"primary":true,"score":0.470166,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/bullet-for-my-valentine-e26081\/389\/huge.jpg"},"slug":"bullet-for-my-valentine","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":389,"genres":[{"slug":"pop","primary":false,"name":"Pop"},{"slug":"rock","primary":false,"name":"Rock"},{"slug":"alternative","primary":false,"name":"Alternative"},{"slug":"hard-rock","primary":false,"name":"Hard
+        Rock"},{"slug":"rap","primary":false,"name":"Rap"}]},{"stats":{"event_count":37},"name":"Asking
+        Alexandria","short_name":"Asking Alexandria","url":"https:\/\/seatgeek.com\/asking-alexandria-tickets","type":"band","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/asking-alexandria-6e1da8\/4945\/huge.jpg","home_venue_id":null,"slug":"asking-alexandria","score":0.426418,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/asking-alexandria-6e1da8\/4945\/huge.jpg"},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":4945,"genres":[{"slug":"pop","primary":false,"name":"Pop"},{"slug":"rock","primary":false,"name":"Rock"},{"slug":"hard-rock","primary":false,"name":"Hard
+        Rock"}]}],"url":"https:\/\/seatgeek.com\/bullet-for-my-valentine-with-asking-alexandria-tickets\/boston-massachusetts-house-of-blues-boston-2016-03-03-6-30-pm\/concert\/2827153","created_at":"2015-09-29T00:00:00","venue":{"city":"Boston","name":"House
+        of Blues Boston","extended_address":"Boston, MA 02215","url":"https:\/\/seatgeek.com\/venues\/house-of-blues-boston\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"house-of-blues-boston","state":"MA","score":0.633228,"postal_code":"02215","location":{"lat":42.2913,"lon":-71.0889},"address":"15
+        Lansdowne St.","timezone":"America\/New_York","id":517},"short_title":"Bullet
+        For My Valentine with Asking Alexandria","datetime_utc":"2016-03-03T23:30:00","datetime_tbd":false},{"links":[],"id":2957203,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Selwyn
+        Birchwood","announce_date":"2015-12-06T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2016-03-03T19:00:00","visible_until_utc":"2016-03-04T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":13},"name":"Selwyn
+        Birchwood","short_name":"Selwyn Birchwood","url":"https:\/\/seatgeek.com\/selwyn-birchwood-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"selwyn-birchwood","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":83955,"genres":[{"slug":"alternative","primary":false,"name":"Alternative"},{"slug":"blues","primary":false,"name":"Blues"},{"slug":"jazz","primary":false,"name":"Jazz"}]}],"url":"https:\/\/seatgeek.com\/selwyn-birchwood-tickets\/shirley-massachusetts-bull-run-2016-03-03-7-pm\/concert\/2957203","created_at":"2015-12-06T00:00:00","venue":{"city":"Shirley","name":"Bull
+        Run","extended_address":"Shirley, MA ","url":"https:\/\/seatgeek.com\/venues\/bull-run\/tickets","country":"US","display_location":"Shirley,
+        MA","links":[],"slug":"bull-run","state":"MA","score":0,"postal_code":"","location":{"lat":42.5842,"lon":-71.6467},"address":null,"timezone":"America\/New_York","id":104196},"short_title":"Selwyn
+        Birchwood","datetime_utc":"2016-03-04T00:00:00","datetime_tbd":false},{"links":[],"id":2666924,"stats":{"listing_count":8,"average_price":69.5,"lowest_price_good_deals":24.0,"lowest_price":24.0,"highest_price":1297.0},"title":"Chicago
+        Blackhawks at Boston Bruins","announce_date":"2015-06-27T00:00:00","score":0.7968,"date_tbd":false,"type":"nhl","datetime_local":"2016-03-03T19:00:00","visible_until_utc":"2016-03-04T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040100,"name":"nhl"}],"performers":[{"stats":{"event_count":18},"name":"Boston
+        Bruins","short_name":"Bruins","url":"https:\/\/seatgeek.com\/boston-bruins-tickets","type":"nhl","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/boston-bruins-752d5d\/2123\/huge.jpg","home_team":true,"home_venue_id":1544,"primary":true,"score":0.771934,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/boston-bruins-752d5d\/2123\/huge.jpg"},"slug":"boston-bruins","taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040100,"name":"nhl"}],"has_upcoming_events":true,"id":2123},{"away_team":true,"stats":{"event_count":20},"name":"Chicago
+        Blackhawks","short_name":"Blackhawks","url":"https:\/\/seatgeek.com\/chicago-blackhawks-tickets","type":"nhl","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/chicago-blackhawks-3c974e\/2133\/huge.jpg","home_venue_id":136,"slug":"chicago-blackhawks","score":0.776531,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/chicago-blackhawks-3c974e\/2133\/huge.jpg"},"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040100,"name":"nhl"}],"has_upcoming_events":true,"id":2133}],"url":"https:\/\/seatgeek.com\/blackhawks-at-bruins-tickets\/3-3-2016-boston-massachusetts-td-garden\/nhl\/2666924","created_at":"2015-06-27T00:00:00","venue":{"city":"Boston","name":"TD
+        Garden","extended_address":"Boston, MA 02114","url":"https:\/\/seatgeek.com\/venues\/td-garden\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"td-garden","state":"MA","score":0.853846,"postal_code":"02114","location":{"lat":42.3653,"lon":-71.0618},"address":"100
+        Legends Way","timezone":"America\/New_York","id":1544},"short_title":"Blackhawks
+        at Bruins","datetime_utc":"2016-03-04T00:00:00","datetime_tbd":false},{"links":[],"id":3040894,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Judy
+        Collins","announce_date":"2016-01-16T00:00:00","score":0.414546,"date_tbd":false,"type":"concert","datetime_local":"2016-03-03T19:00:00","visible_until_utc":"2016-03-04T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":37},"name":"Judy
+        Collins","short_name":"Judy Collins","url":"https:\/\/seatgeek.com\/judy-collins-tickets","type":"band","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/judy-collins-9cc876\/1010\/huge.jpg","home_venue_id":null,"primary":true,"score":0.425375,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/judy-collins-9cc876\/1010\/huge.jpg"},"slug":"judy-collins","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":1010,"genres":[{"slug":"country","primary":false,"name":"Country"},{"slug":"pop","primary":false,"name":"Pop"},{"slug":"rock","primary":false,"name":"Rock"},{"slug":"folk","primary":false,"name":"Folk"}]}],"url":"https:\/\/seatgeek.com\/judy-collins-tickets\/northampton-massachusetts-iron-horse-music-hall-2016-03-03-7-pm\/concert\/3040894","created_at":"2016-01-16T00:00:00","venue":{"city":"Northampton","name":"Iron
+        Horse Music Hall","extended_address":"Northampton, MA 01060","url":"https:\/\/seatgeek.com\/venues\/iron-horse-music-hall\/tickets","country":"US","display_location":"Northampton,
+        MA","links":[],"slug":"iron-horse-music-hall","state":"MA","score":0.338648,"postal_code":"01060","location":{"lat":42.319,"lon":-72.6317},"address":"20
+        Center Street","timezone":"America\/New_York","id":2155},"short_title":"Judy
+        Collins","datetime_utc":"2016-03-04T00:00:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":3130145,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"New
+        Hampshire Wildcats at Merrimack Warriors Hockey","announce_date":"2016-03-02T00:00:00","score":0,"date_tbd":false,"type":"ncaa_hockey","datetime_local":"2016-03-03T19:00:00","visible_until_utc":"2016-03-04T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040200,"name":"ncaa_hockey"}],"performers":[{"stats":{"event_count":3},"name":"Merrimack
+        Warriors Hockey","short_name":"Merrimack Warriors","url":"https:\/\/seatgeek.com\/merrimack-warriors-hockey-tickets","type":"ncaa_hockey","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/merrimack-warriors-hockey-91601b\/9781\/huge.jpg","home_team":true,"home_venue_id":5520,"primary":true,"score":0.329885,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/merrimack-warriors-hockey-91601b\/9781\/huge.jpg"},"slug":"merrimack-warriors-hockey","taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040200,"name":"ncaa_hockey"}],"has_upcoming_events":true,"id":9781},{"away_team":true,"stats":{"event_count":3},"name":"New
+        Hampshire Wildcats Hockey","short_name":"UNH Wildcats","url":"https:\/\/seatgeek.com\/new-hampshire-wildcats-hockey-tickets","type":"ncaa_hockey","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/new-hampshire-wildcats-hockey-5d7131\/9802\/huge.jpg","home_venue_id":3390,"slug":"new-hampshire-wildcats-hockey","score":0.342284,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/new-hampshire-wildcats-hockey-5d7131\/9802\/huge.jpg"},"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040200,"name":"ncaa_hockey"}],"has_upcoming_events":true,"id":9802}],"url":"https:\/\/seatgeek.com\/new-hampshire-wildcats-at-merrimack-warriors-hockey-tickets\/ncaa-hockey\/2016-03-03-7-pm\/3130145","created_at":"2016-03-02T00:00:00","venue":{"city":"North
+        Andover","name":"Lawler Arena","extended_address":"North Andover, MA 01845","url":"https:\/\/seatgeek.com\/venues\/lawler-arena\/tickets","country":"US","display_location":"North
+        Andover, MA","links":[],"slug":"lawler-arena","state":"MA","score":0.393154,"postal_code":"01845","location":{"lat":42.6678,"lon":-71.1226},"address":"315
+        Turnpike Street","timezone":"America\/New_York","id":5520},"short_title":"New
+        Hampshire Wildcats at Merrimack Warriors Hockey","datetime_utc":"2016-03-04T00:00:00","datetime_tbd":false},{"links":[],"id":3038303,"stats":{"listing_count":0,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Somos
+        with Petal","announce_date":"2016-01-16T00:00:00","score":0.330769,"date_tbd":false,"type":"concert","datetime_local":"2016-03-03T19:00:00","visible_until_utc":"2016-03-04T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":19},"name":"Somos","short_name":"Somos","url":"https:\/\/seatgeek.com\/somos-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.224298,"images":{},"slug":"somos","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":69298},{"stats":{"event_count":18},"name":"Petal","short_name":"Petal","url":"https:\/\/seatgeek.com\/petal-tickets","type":"band","image":null,"home_venue_id":null,"slug":"petal","score":0,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":339455,"genres":[{"slug":"rock","primary":false,"name":"Rock"}]}],"url":"https:\/\/seatgeek.com\/somos-with-petal-tickets\/cambridge-massachusetts-the-middle-east-2016-03-03-7-pm\/concert\/3038303","created_at":"2016-01-16T00:00:00","venue":{"city":"Cambridge","name":"The
+        Middle East","extended_address":"Cambridge, MA 02139","url":"https:\/\/seatgeek.com\/venues\/the-middle-east\/tickets","country":"US","display_location":"Cambridge,
+        MA","links":[],"slug":"the-middle-east","state":"MA","score":0.443229,"postal_code":"02139","location":{"lat":42.3766,"lon":-71.1127},"address":"472
+        Massachusetts Ave","timezone":"America\/New_York","id":512},"short_title":"Somos
+        with Petal","datetime_utc":"2016-03-04T00:00:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2894025,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Paula
+        Poundstone","announce_date":"2015-10-29T00:00:00","score":0.443652,"date_tbd":false,"type":"comedy","datetime_local":"2016-03-03T19:30:00","visible_until_utc":"2016-03-04T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":20},"name":"Paula
+        Poundstone","short_name":"Paula Poundstone","url":"https:\/\/seatgeek.com\/paula-poundstone-tickets","type":"theater_comedy","image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/paula-poundstone-e22f37\/5181\/huge.jpg","home_venue_id":null,"primary":true,"score":0.416133,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/paula-poundstone-e22f37\/5181\/huge.jpg"},"slug":"paula-poundstone","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":5181}],"url":"https:\/\/seatgeek.com\/paula-poundstone-tickets\/comedy\/2016-03-03-7-30-pm\/2894025","created_at":"2015-10-29T00:00:00","venue":{"city":"Worcester","name":"Hanover
+        Theatre","extended_address":"Worcester, MA 01608","url":"https:\/\/seatgeek.com\/venues\/hanover-theatre\/tickets","country":"US","display_location":"Worcester,
+        MA","links":[],"slug":"hanover-theatre","state":"MA","score":0.543691,"postal_code":"01608","location":{"lat":42.2614,"lon":-71.8036},"address":"2
+        Southbridge Street","timezone":"America\/New_York","id":961},"short_title":"Paula
+        Poundstone","datetime_utc":"2016-03-04T00:30:00","datetime_tbd":false},{"links":[],"id":2785937,"stats":{"listing_count":0,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"SONiA
+        disappear fear","announce_date":"2015-08-28T00:00:00","score":0,"date_tbd":false,"type":"concert","datetime_local":"2016-03-03T19:30:00","visible_until_utc":"2016-03-04T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":1},"name":"SONiA
+        disappear fear","short_name":"SONiA disappear fear","url":"https:\/\/seatgeek.com\/sonia-disappear-fear-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"sonia-disappear-fear","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":349416}],"url":"https:\/\/seatgeek.com\/sonia-disappear-fear-tickets\/leicester-massachusetts-hezekiah-stone-s-coffeehouse-2016-03-03-7-30-pm\/concert\/2785937","created_at":"2015-08-28T00:00:00","venue":{"city":"Leicester","name":"Hezekiah
+        Stone''s Coffeehouse","extended_address":"Leicester, MA 01542","url":"https:\/\/seatgeek.com\/venues\/hezekiah-stone-s-coffeehouse\/tickets","country":"US","display_location":"Leicester,
+        MA","links":[],"slug":"hezekiah-stone-s-coffeehouse","state":"MA","score":0,"postal_code":"01542","location":{"lat":42.1939,"lon":-71.9067},"address":"1089
+        Stafford St.","timezone":"America\/New_York","id":14577},"short_title":"SONiA
+        disappear fear","datetime_utc":"2016-03-04T00:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2908476,"stats":{"listing_count":8,"average_price":290.5,"lowest_price_good_deals":null,"lowest_price":232.0,"highest_price":670.0},"title":"Three
+        Sisters - Boston","announce_date":"2015-11-06T00:00:00","score":0.473308,"date_tbd":false,"type":"broadway_tickets_national","datetime_local":"2016-03-03T19:30:00","visible_until_utc":"2016-03-04T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"performers":[{"stats":{"event_count":4},"name":"Three
+        Sisters","short_name":"Three Sisters","url":"https:\/\/seatgeek.com\/three-sisters-tickets","type":"theater_broadway_national_tours","image":null,"home_venue_id":null,"primary":true,"score":0.321449,"images":{},"slug":"three-sisters","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"has_upcoming_events":true,"id":15205}],"url":"https:\/\/seatgeek.com\/three-sisters-boston-tickets\/cutler-majestic-theatre-1-2016-03-03-7-30-pm\/broadway\/2908476","created_at":"2015-11-06T00:00:00","venue":{"city":"Boston","name":"Cutler
+        Majestic Theatre","extended_address":"Boston, MA 02116","url":"https:\/\/seatgeek.com\/venues\/cutler-majestic-theatre-1\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"cutler-majestic-theatre-1","state":"MA","score":0.417713,"postal_code":"02116","location":{"lat":42.3516,"lon":-71.0648},"address":"219
+        Tremont Street","timezone":"America\/New_York","id":4046},"short_title":"Three
+        Sisters - Boston","datetime_utc":"2016-03-04T00:30:00","datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Fri, 04 Mar 2016 02:16:11 GMT
+recorded_with: VCR 3.0.1

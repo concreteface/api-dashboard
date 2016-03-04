@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'dotenv'
 
 describe 'WeatherDisplayer', vcr: true do
   let(:weather){WeatherDisplayer.new('Boston', 'MA')}
