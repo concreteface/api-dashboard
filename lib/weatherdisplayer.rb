@@ -1,8 +1,12 @@
+require 'uri'
+require 'net/http'
+require 'json'
+require 'dotenv'
+require 'pry'
+Dotenv.load
+
 class WeatherDisplayer
-  require 'uri'
-  require 'net/http'
-  require 'json'
-  require 'dotenv'
+
   attr_reader :city, :state, :temperature, :weather, :url
 
   def initialize(city, state)
@@ -10,8 +14,8 @@ class WeatherDisplayer
     @state = state
     @temperature = ''
     @weather = ''
-    @key = ENV['KEY']
-    @url_string = "http://api.wunderground.com/api/c1b0c1c05588980a/conditions/q/#{@state}/#{@city}.json"
+    @key = ENV['WEATHER_KEY']
+    @url_string = "http://api.wunderground.com/api/#{@key}/conditions/q/#{@state}/#{@city}.json"
     @url = URI(@url_string)
   end
 
@@ -22,3 +26,4 @@ class WeatherDisplayer
     @weather = info['current_observation']['weather']
   end
 end
+
